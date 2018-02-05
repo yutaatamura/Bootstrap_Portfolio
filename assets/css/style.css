@@ -1,0 +1,64 @@
+
+nav {
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+    height: 100%;
+    line-height: 60px;
+    font-size:30px; 
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+#name {
+    color: #ffffff;
+}
+
+.navbar {
+    padding: 0; 
+}
+
+li {
+    margin: 0 7px;
+    
+}
+
+.profilePic {
+    width: 300px;
+    margin: 10px;
+}
+
+.paragraphContainer {
+    margin: 15px 10px;
+}
+
+#githubIcon {
+    width: 50px;
+}
+
+#linkedinIcon {
+    width: 50px;
+}
+
+#overflowIcon {
+    width: 50px;
+}
+
+#connectWithMeHeader {
+    color: #4aaaa5;
+    font-size: 20px;
+}
+
+.headingFonts {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.otherFonts {
+    font-family: 'Arial', 'Helvetica  Neue', Helvetica, sans-serif;
+    color: #777777;
