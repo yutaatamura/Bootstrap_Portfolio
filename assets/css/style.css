@@ -76,10 +76,27 @@ footer {
     border: 1px solid #cccccc;
 }
 
+.copyright {
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 40px;
+}
+
 .headingFonts {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 .otherFonts {
     font-family: 'Arial', 'Helvetica  Neue', Helvetica, sans-serif;
-    color: #777777;
+}
+
+@media screen and (max-width: 768px) {
+    .sideBar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card {
+        width: 100%!important;
+    }
+}
