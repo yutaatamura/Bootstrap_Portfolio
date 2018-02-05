@@ -38,6 +38,16 @@ li {
 .aboutMe {
     background-color: #ffffff;
     border: 1px solid #dddddd;
+    padding-top: 20px;
+}
+
+#aboutMeHeader {
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+hr {
+    margin-bottom: 20px;
 }
 
 .card {
