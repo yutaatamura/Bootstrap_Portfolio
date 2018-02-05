@@ -1,15 +1,21 @@
+body {
+    background-image: url("../images/paisley.png");
+}
+
+.content {
+    margin-bottom: 90px;
+}
 
 nav {
     margin-bottom: 30px;
-    height: 80px;
 }
 
 .navbar-brand {
     background-color: #4aaaa5;
     padding: 10px;
-    height: 100%;
     line-height: 60px;
     font-size:30px; 
+    margin-left: 30px;
 }
 
 .nav-item {
@@ -22,11 +28,20 @@ nav {
 
 .navbar {
     padding: 0; 
+    background-color: #ffffff!important;
 }
 
 li {
-    margin: 0 7px;
-    
+    margin: 0 7px;   
+}
+
+.aboutMe {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.card {
+    border: 1px solid #dddddd;
 }
 
 .profilePic {
@@ -53,6 +68,12 @@ li {
 #connectWithMeHeader {
     color: #4aaaa5;
     font-size: 20px;
+}
+
+footer {
+    background-color: #666666;
+    height: 60px;
+    border: 1px solid #cccccc;
 }
 
 .headingFonts {
