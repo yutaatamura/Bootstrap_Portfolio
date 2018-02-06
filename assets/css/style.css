@@ -41,7 +41,23 @@ li {
     padding-top: 20px;
 }
 
+.contact {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding-top: 20px;
+}
+
 #aboutMeHeader {
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+#portfolioHeader {
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+#contactHeader {
     font-size: 28px;
     color: #4aaaa5;
 }
