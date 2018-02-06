@@ -63,7 +63,7 @@ hr {
     margin: 15px 10px;
 }
 
-.projectsRow {
+.projects {
     margin-bottom: 15px;
 }
 
@@ -75,7 +75,7 @@ hr {
     position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 100%;
+    width: 94%;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -150,11 +150,30 @@ footer {
     }
 
     .caption {
-        width: 250px;
+        width: 94%;
         height: 45px;
         top: 78%;
     }
 
+    .projectLabel {
+        line-height: 2.0;
+        font-size: 22px;
+    }
+
+    projectPic {
+        float: left;
+    }
+}
+@media screen and (max-width: 576px) {
+    .caption {
+        width: 90%;
+        height: 70px;
+        }
+
+    .projectLabel {
+        font-size: 30px;
+    }
+    }
 
 
 
