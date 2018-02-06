@@ -63,6 +63,31 @@ hr {
     margin: 15px 10px;
 }
 
+.projectsRow {
+    margin-bottom: 15px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 75%;
+    text-align: center;
+}
+
+.projectLabel {
+    font-size: 18px;
+}
+
 #githubIcon {
     width: 50px;
 }
@@ -123,4 +148,17 @@ footer {
     .card {
         width: 100%!important;
     }
+
+    .caption {
+        width: 250px;
+        height: 45px;
+        top: 78%;
+    }
+
+
+
+
+
+
 }
+
