@@ -32,9 +32,13 @@ nav {
 }
 
 li {
-    margin: 0 7px;   
+    margin: 0 auto;   
 }
 
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
 .aboutMe {
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -189,11 +193,15 @@ footer {
     .projectLabel {
         font-size: 30px;
     }
+
+    .navbar-nav {
+        flex-direction: row;
     }
+}
 
-
-
-
-
+@media screen and (min-width: 576px) {
+    .navbar-nav {
+        float: right;
+    }
 }
 
