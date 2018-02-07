@@ -8,6 +8,7 @@ body {
 
 nav {
     margin-bottom: 30px;
+    border: 1px solid #cccccc;
 }
 
 .navbar-brand {
