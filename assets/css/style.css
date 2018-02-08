@@ -149,6 +149,7 @@ footer {
 
 .nav-link:hover {
     color: #4aaaa5!important;
+    font-weight: bold;
 }
 
 #submitButton:hover {
@@ -177,6 +178,10 @@ footer {
 nav ul {
     animation-duration: 0.5s;
     animation-name:slide;
+}
+
+.active {
+    font-weight: bold;
 }
 
 @keyframes slide {
